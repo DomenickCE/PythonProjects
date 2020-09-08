@@ -1,6 +1,8 @@
 '''where the sorting algorithms are imported and executed'''
 
 from BubbleSortAlgorithm import BubbleSort
+from MergeSortAlgorithm import MergeSort
+from InsertionSortAlgorithm import InsertionSort
 
 def main():
 
@@ -18,6 +20,11 @@ def main():
 
 
     BubbleSort(numFile)
+
+    MergeSort(numFile)
+
+    InsertionSort(numFile)
+    
 
     
 
